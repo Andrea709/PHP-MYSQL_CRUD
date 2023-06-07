@@ -22,6 +22,8 @@ if(isset($_SESSION["mensagens"]))
     //mensagem mais antiga pra cima
     //array_reverse é uma função "pronta" pra inverter a ordem padrão
     $mensagens = array_reverse($_SESSION["mensagens"]);
+
+    $ultimasMensagens = array_slice($mensagens, 0, 10); // mostrar só  as 10 últimas mensagens
 } 
 else 
 {
