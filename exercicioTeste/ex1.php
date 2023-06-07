@@ -41,7 +41,7 @@ else
 </head>
 <body>
     <h1> Exercício Blog <h1>
-    <form method="post" action="index.php">
+    <form method="post" action="ex1.php">
         <label for="mensagem">Digite sua mensagem:</label>
         <br>
         <input type="text" name="mensagem">
