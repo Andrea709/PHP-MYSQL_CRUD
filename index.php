@@ -39,7 +39,7 @@ else
 </head>
 <body>
     <h1> Exercício Blog <h1>
-    <form method="post" action="php-mysql_CRUD/index.php">
+    <form method="post" action="index.php">
         <label for="mensagem">Digite sua mensagem:</label>
         <br>
         <input type="text" name="mensagem">
