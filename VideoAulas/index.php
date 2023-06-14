@@ -12,3 +12,6 @@ require 'config.php';
         <th> Ações </th>
     </tr>
 </table>
+
+
+<a href="cadastrar.php"> Cadastrar usuários </a>
