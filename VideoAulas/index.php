@@ -1,11 +1,14 @@
 <?php
+require 'config.php';
+?>
 
-//variável de configuração de acesso
-$pdo = new PDO("mysql:dbname=crud;host=localhost: 3306", "root", "aluno");
+<h1>Listagem de usuários</h1>
 
-$sql = $pdo->query('SELECT * FROM crud.pessoa;');
-
-$dados = $sql->fetchAll(pdo::FETCH_ASSOC);
-
-echo '<pre>';
-print_r($dados);
+<table border="1">
+    <tr>
+        <th> ID </th>
+        <th> Nome </th>
+        <th> Idade </th>
+        <th> Ações </th>
+    </tr>
+</table>
