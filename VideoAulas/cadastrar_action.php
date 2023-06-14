@@ -14,5 +14,5 @@ $sql->bindValue(':profissao', $profissao);
 
 $sql->execute();
 
-header("Location: index.php");
+header("http://localhost/php-mysql_CRUD/VideoAulas/");
 
