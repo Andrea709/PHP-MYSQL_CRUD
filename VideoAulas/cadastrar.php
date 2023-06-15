@@ -1,6 +1,6 @@
 <h1>Cadastrar usuário<h1>
 
-<form method-"POST" action="cadastrar_action.php">
+<form method="POST" action="cadastrar_action.php">
     <label>
         Nome: <input type="text" name="nome" />
     </label>
